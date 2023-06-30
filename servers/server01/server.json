@@ -1,0 +1,11 @@
+{
+  "server": true,
+  "bind_addr": "172.26.0.6",
+  "bootstrap_expect": 3,
+  "data_dir": "/tmp",
+  "retry_join": ["172.26.0.4", "172.26.0.5"],
+  "client_addr": "0.0.0.0",
+  "ui_config": {
+    "enabled": true
+  }
+}
